@@ -1,0 +1,19 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "WebRTC Demo",
+  "main": "signaling_server.js",
+  "scripts": {
+    "server": "http-server ./test_client -a localhost -p 8080 -c1",
+    "start": "nodemon"
+  },
+  "author": "Shaka Inc",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "http-server": "^0.9.0"
+  }
+}

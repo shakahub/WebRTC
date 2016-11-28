@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>WebRTC Client For Signaling Server Test</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div id="login-page" class="page">
+		<h2>Login As</h2>
+		<input type="text" id="username" />
+		<button id="login">Login</button>
+	</div>
+
+	<div id="call-page" class="page">
+		<video id="yours" autoplay="true"></video>
+		<video id="theirs" autoplay="true"></video>
+		<input type="text" id="theirusername" />
+		<button id="call">Call</button>&nbsp;
+		<button id="hang-up" disabled="true">Hang Up</button>
+		<br />
+		<input type="text" id="message"></input>
+		<button id="send" disabled="true">Send</button>
+		<div id="received"></div>
+	</div>
+
+	<div id="share-page" class="page">
+		<input type="file" id="files" name="files[]" multiple />
+		<button id="share" disabled="true">Share File</button>
+		<br />
+      	<div id="status"></div>
+      	<br />
+      	<div id="fileList"></div>
+	</div>
+
+	<script type="text/javascript" src="client.js"></script>
+</body>
+</html>

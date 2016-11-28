@@ -1,0 +1,43 @@
+body {
+	background-color: #3D6DF2;
+	margin-top: 15px;
+	font-family: sans-serif;
+	color: white;
+}
+
+video {
+	background: black;
+	border: 1px solid gray;
+}
+
+.page {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+}
+
+#yours {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 15px;
+	right: 35px;
+}
+
+#theirs {
+	width: 400px;
+	height: 320px;
+}
+
+#received {
+	display: block;
+	width: 380px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	margin-top: 10px;
+	color: black;
+	overflow: scroll;
+}
